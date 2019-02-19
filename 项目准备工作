@@ -1,0 +1,16 @@
+数据库表：
+user id username password email phone create_time  update_time
+
+category id name create_time  update_time
+
+product id category_id(F) name image detail price(decimal(20,2)) status
+ create_time update_time
+
+cart id user_id(F) product_id(F)  quantity checked(是否选择，1表示选择，0表示未选择)
+create_time update_time
+
+order id user_id(F)  order_No receiver_name receiver_phone receiver_address  create_time  update_time
+
+
+
+

@@ -1,0 +1,116 @@
+#login,#login-top,#login-top-a{
+    margin: 0px;
+    padding: 0px;
+}
+
+#login{
+    width: 1200px;
+    height: 312px;
+    color: #222222;
+    position: relative;
+}
+
+#login-top{
+    width: 1200px;
+    height: 45px;
+    line-height: 45px;
+    margin-left: 120px;
+    border-bottom: 1px solid #4ab344;
+    position: absolute;
+    float:left;
+    overflow: hidden;
+}
+#login-top1{
+    color:#4ab344;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.loginmain{
+    float: top;
+    padding-left: 580px;
+    position: absolute;
+    margin-top: 76px;
+}
+
+.input{
+    width: 215px;
+    height: 33px;
+    background: #F7F7F7;
+    border: 1px solid #e9e9e9;
+    outline-color: #dedede;
+    padding-left: 25px;
+    margin: 0 auto;
+}
+
+.inputdiv{
+    margin-bottom: 13px;
+    color: #6d6d6d;
+    width: 227px;
+    height: 34px;
+}
+
+.inputuser{
+    background-image: url(/static/images/icon_user.jpg);
+    background-repeat: no-repeat;
+}
+
+.inputpwd{
+    background-image: url(/static/images/icon_pwd.jpg);
+    background-repeat: no-repeat;
+}
+
+.loginBtn{
+    height: 44px;
+    width: 242px;
+    line-height: 44px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    background: #FF5959 0 repeat-x;
+    vertical-align:middle;
+    color: #ffffff;
+    font: 14px "微软雅黑";
+    border: 0;
+}
+
+
+.loginToRegister{
+    text-align: right;
+    margin-top: 25px;
+    font: 12px "微软雅黑";
+    color: #6d6d6d;
+    padding-bottom: 10px;
+    border-bottom: #E5E5E5 solid 1px;
+}
+
+.otherLogin{
+    width: 260px;
+    height: 20px;
+}
+
+.otherLoginSpan{
+    height: 20px;
+    float: left;
+    margin-top: 10px;
+    margin-right: 3px;
+    line-height: 20px;
+    font: 12px "微软雅黑";
+    color: #6d6d6d;
+    text-align: left;
+}
+
+.otherLogin>a{
+    background-image: url("/static/images/timg.png");
+    margin-top: 10px;
+}
+
+#s_wxLogin{
+    font-size: 14px;
+    color: #666666;
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-right: 8px;
+    line-height: 20px;
+}

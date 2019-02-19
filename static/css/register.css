@@ -1,0 +1,139 @@
+#register,#register-top1,#register-top,.registerMain,.writeLineInput,
+.writeLine,.writeLineTitle,.registerBtn{
+    margin: 0;
+    padding: 0;
+}
+
+#register{
+    width: 1200px;
+    height: 491px;
+    position: relative;
+}
+
+#register-top{
+    width: 1200px;
+    height: 45px;
+    line-height: 45px;
+    margin-left: 120px;
+    border-bottom: 1px solid #4ab344;
+    position: absolute;
+    float:left;
+    overflow: hidden;
+}
+#register-top1{
+    color:#4ab344;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.registerMain{
+    float: top;
+    padding-left: 500px;
+    position: absolute;
+    margin-top: 76px;
+}
+
+.writeLine{
+    width: 380px;
+    height: 25px;
+    line-height: 25px;
+    margin-bottom: 12px;
+}
+
+.writeLineTitle{
+    width: 85.5px;
+    height: 25px;
+    text-align: right;
+    float: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    line-height: 25px;
+    font-size: 14px;
+    color: #666666;
+}
+
+.writeLineInput{
+    float: left;
+    line-height: 25px;
+    font-size: 12px;
+    color: #8c8c8c;
+}
+
+.inputUser{
+    width: 270px;
+    height: 23px;
+    line-height: 23px;
+    border: 1px solid #dadada;
+    outline-color: #dedede;
+    padding: 0;
+    margin: 0;
+    background-color: #f7f7f7;
+}
+
+.itemSign{
+    width: 19px;
+    _width: 25px;
+    float: right;
+    text-align: center;
+    color: red;
+}
+
+#mobiletop{
+    height: 25px;
+    line-height: 23px;
+    border: 1px solid #dadada;
+    outline-color: #dedede;
+    background-color: #f7f7f7;
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    color: #8C8C8C;
+}
+
+.mobileinput{
+    width: 157.2px;
+    line-height: 23px;
+    border: 1px solid #dadada;
+    outline-color: #dedede;
+    background-color: #f7f7f7;
+    padding: 0;
+    margin: 0;
+    color: #8c8c8c;
+    font-size: 12px;
+    margin-left: 5.5px;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-rendering: auto;
+    text-transform: none;
+    text-indent: 0;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    -webkit-writing-mode: horizontal-tb !important;
+    border-spacing: 0;
+}
+
+#SignupRemark{
+    width: 275px;
+    height: 78px;
+    background: #f7f7f7;
+    border-color: #a9a9a92b;
+}
+
+.registerBtn{
+    width: 380px;
+    height: 45px;
+    background: #FF4D4D;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    line-height: 44.5px;
+    cursor:pointer;
+    border: 0;
+}
+
+/*#reBtn{*/
+    /*margin-top: 15px;*/
+    /*font-size: 16px;*/
+/*}*/
